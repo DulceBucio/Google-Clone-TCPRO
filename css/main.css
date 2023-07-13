@@ -93,7 +93,7 @@ main .main-input{
 
 main .main-input-container{
     /* anchura de linea, estilo de linea y color*/
-    border: 1px solid #000000;
+    border: 1px solid #dfe1e5;
     width: 525px;
     border-radius: 30px;
 }
@@ -172,34 +172,32 @@ main .main-buttons button:hover{
 footer {
     width: 100%;
     height: 10%;
-    background-color: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
-    margin-top: 100px;
-    margin-top: 18%;
+    background-color: #e9e7e7;
+    border-top: 1px solid #d7d8da;
+    margin-top: 19%;
     display: flex;
 }
 
 
-footer nav .footer-left-section {
-    width: 30px;
+footer .footer-left-section {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+li{
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    margin-right: 80px;
-}
-
-.footer-left-section{
-    margin-left: 80px;
+    padding: 1%;
 }
 
 li a {
     text-decoration: none;
-    margin-right: 15px;
-    color: rgba(0,0,0,.87);
+    color: #70757a;
 }
-
-footer nav .footer-right-section {
-
+footer .footer-right-section {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
 }
